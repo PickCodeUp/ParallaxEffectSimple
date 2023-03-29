@@ -1,0 +1,29 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  }
+  
+  p{color:#fff;}
+  
+  .container-fluid{
+  width:100%;
+  }
+  
+  
+  .container{
+  max-width:1080px;
+  width:100%;
+  margin:auto;
+  padding:32px;
+  }
+  
+  .center{text-align:center;}
+  .black{background-color:#252525;}
+  
+  .parallax{
+  height:500px;
+  background-image:url('../img/globos.jpg'); /* Esta es la imagen del fondo que no se desplaza cuando se mueve el texto que se le superpone*/
+  background-size:cover;
+  background-attachment: fixed;
+  }
